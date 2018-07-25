@@ -1,6 +1,0 @@
-README.md
-setup.py
-py_workingdays.egg-info/PKG-INFO
-py_workingdays.egg-info/SOURCES.txt
-py_workingdays.egg-info/dependency_links.txt
-py_workingdays.egg-info/top_level.txt
