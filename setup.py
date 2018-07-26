@@ -3,16 +3,19 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+__version__ = '0.1.0'
+__author__ = "Caio Henrique Silva"
+
 setuptools.setup(
     name="py_workingdays",
-    version="0.0.6",
-    author="Caio Henrique Silva",
+    version=__version__,
+    author=__author__,
     author_email="caio@caiowd.me",
-    description="This is a python lib to deal with working days with support for localization",
+    description="This is a python lib to deal with working days",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/caiohenriquesilva/pyworkingdays",
-    packages=setuptools.find_packages(),
+    url="https://github.com/caiohenriquesilva/py_workingdays",
+    packages=['py_workingdays'],
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
