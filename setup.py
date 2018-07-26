@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 __version__ = '0.1.0'
-__author__ = "caio@caiowd.me"
+__author__ = "Caio Henrique Silva"
 
 setuptools.setup(
     name="py_workingdays",
